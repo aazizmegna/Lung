@@ -144,7 +144,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 export const ImageUpload = () => {
-  
+
   const classes = useStyles();
   const [selectedFile, setSelectedFile] = useState();
   const [preview, setPreview] = useState();
@@ -153,6 +153,7 @@ export const ImageUpload = () => {
   const [isLoading, setIsloading] = useState(false);
   let confidence = 0;
 
+  
   const sendFile = async () => {
     if (image) {
       let formData = new FormData();
