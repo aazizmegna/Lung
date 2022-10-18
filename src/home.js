@@ -144,6 +144,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 export const ImageUpload = () => {
+  
   const classes = useStyles();
   const [selectedFile, setSelectedFile] = useState();
   const [preview, setPreview] = useState();
